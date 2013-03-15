@@ -1,7 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDryLib.Logging.Interface", "MyDryLib.Logging.Interface\MyDryLib.Logging.Interface.csproj", "{1D601E8C-C892-4113-8315-FC179904B63E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDryLib.Assumptions.Tests", "MyDryLib.Assumptions.Tests\MyDryLib.Assumptions.Tests.csproj", "{67C1E496-8D5F-40E2-BEEF-52591A6D31F0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D601E8C-C892-4113-8315-FC179904B63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D601E8C-C892-4113-8315-FC179904B63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D601E8C-C892-4113-8315-FC179904B63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D601E8C-C892-4113-8315-FC179904B63E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C1E496-8D5F-40E2-BEEF-52591A6D31F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C1E496-8D5F-40E2-BEEF-52591A6D31F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C1E496-8D5F-40E2-BEEF-52591A6D31F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C1E496-8D5F-40E2-BEEF-52591A6D31F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
