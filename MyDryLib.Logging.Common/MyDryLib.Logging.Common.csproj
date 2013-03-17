@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1D601E8C-C892-4113-8315-FC179904B63E}</ProjectGuid>
+    <ProjectGuid>{403AAEAA-6B68-4D20-B4B7-0188FE0F5862}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyDryLib.Logging.Interface</RootNamespace>
-    <AssemblyName>MyDryLib.Logging.Interface</AssemblyName>
+    <RootNamespace>MyDryLib.Logging.Common</RootNamespace>
+    <AssemblyName>MyDryLib.Logging.Common</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,13 +39,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Implementation\DevNullLogger.cs" />
-    <Compile Include="Extensions\LogExtension.cs" />
-    <Compile Include="ILog.cs" />
-    <Compile Include="LogLevel.cs" />
+    <Compile Include="MultiLogger.cs" />
+    <Compile Include="TextLogger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MyDryLib.Logging.Interface\MyDryLib.Logging.Interface.csproj">
+      <Project>{1D601E8C-C892-4113-8315-FC179904B63E}</Project>
+      <Name>MyDryLib.Logging.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDryLib.Logging.Interface"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDryLib.Assumptions.Tests", "MyDryLib.Assumptions.Tests\MyDryLib.Assumptions.Tests.csproj", "{67C1E496-8D5F-40E2-BEEF-52591A6D31F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDryLib.Logging.Common", "MyDryLib.Logging.Common\MyDryLib.Logging.Common.csproj", "{403AAEAA-6B68-4D20-B4B7-0188FE0F5862}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Architecture", "Architecture\Architecture.modelproj", "{42879284-F6C3-418D-BC16-C534BF636DD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{67C1E496-8D5F-40E2-BEEF-52591A6D31F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67C1E496-8D5F-40E2-BEEF-52591A6D31F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67C1E496-8D5F-40E2-BEEF-52591A6D31F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{403AAEAA-6B68-4D20-B4B7-0188FE0F5862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403AAEAA-6B68-4D20-B4B7-0188FE0F5862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403AAEAA-6B68-4D20-B4B7-0188FE0F5862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403AAEAA-6B68-4D20-B4B7-0188FE0F5862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42879284-F6C3-418D-BC16-C534BF636DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42879284-F6C3-418D-BC16-C534BF636DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42879284-F6C3-418D-BC16-C534BF636DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42879284-F6C3-418D-BC16-C534BF636DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
